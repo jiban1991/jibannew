@@ -1,0 +1,23 @@
+.profile{
+    position: relative;
+}
+.profile img{
+    position: absolute;
+    width: 80vw;
+}
+.info{
+    position: absolute;
+    color: black;
+    /* margin-top: 5vw; */
+    /* margin-left: 25vw; */
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+}
+@media screen and (max-width: 767px){
+    .title{
+        display: none;
+    }
+}
